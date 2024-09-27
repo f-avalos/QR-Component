@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root{
+    --white: hsl(0, 0%, 100%);
+    --slate300: hsl(212, 45%, 89%);
+    --slate500: hsl(216, 15%, 48%);
+    --slate900: hsl(218, 44%, 22%);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Outfit', 'Arial', 'monospace';
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--slate300);
+    height: 100vh;
+}
+
+.card-qr{
+    max-width: 20rem;
+    cursor: pointer;
+    background-color: var(--white);
+    border-radius: 1rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+    text-align: center;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    transition: box-shadow .3s ease, transform .3s ease;
+    -webkit-transition: box-shadow .3s ease, ;
+    -moz-transition: box-shadow .3s ease, ;
+    -ms-transition: box-shadow .3s ease, ;
+    -o-transition: box-shadow .3s ease, ;
+}
+
+.card-qr:hover{
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .4);
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    
+}
+
+.card-qr:active{
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .6);
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+.content-qr{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-qr img{
+    width: 100%;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.text-qr{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 1rem;
+}
+
+.text-qr h2{
+    font-weight: 700;
+    color: var(--slate900);
+}
+
+.text-qr p{
+    font-weight: 400;
+    color: var(--slate500);
+}
