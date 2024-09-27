@@ -19,7 +19,7 @@ En este repositorio se encuentra un pequeño componente que muestra un código Q
 
 ### Links
 
-- Sitio web: [Código QR](https://https://f-avalos.github.io/QR-Component/)
+- Sitio web: [Código QR](https://f-avalos.github.io/QR-Component/)
 
 ## Proceso
 
